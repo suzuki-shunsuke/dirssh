@@ -44,7 +44,7 @@ In that case you can set `DIRSSH_ALIAS` to `ssh` to ease.
 
 ## How it works
 
-dirssh adds the chpwd hook function using add-zsh-hook.
+dirssh adds the precmd hook function using add-zsh-hook.
 This hook function makes an alias `$DIRSSH_ALIAS(dirssh)="ssh -F <dirsshcfg path>"`.
 
 ## Contributing
