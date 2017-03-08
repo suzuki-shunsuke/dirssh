@@ -34,4 +34,3 @@ _dirssh() {
 
 autoload -Uz add-zsh-hook
 add-zsh-hook precmd _dirssh
-_dirssh
